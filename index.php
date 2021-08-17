@@ -572,7 +572,7 @@
             <div class="eight columns">
 
                <!-- form -->
-               <form action="" method="post">
+               <form action="contact.php" method="post">
 					<fieldset>
 
                   <div>
@@ -621,7 +621,7 @@
 
                <div class="widget widget_tweets">
 
-                  <h4 class="widget-title">Latest Tweets</h4>
+                  <h4 class="widget-title">Some Tweets</h4>
 
                   <ul id="twitter">
                      <li>
@@ -631,7 +631,7 @@
                               Tatah Andrew (@nfonandrew73) <a href="https://twitter.com/nfonandrew73/status/1381612233663336455?ref_src=twsrc%5Etfw">
                                  April 12, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
                         </span>
-                        <b><a href="#">2 Days Ago</a></b>
+                        <b><a href="#">8 Weeks Ago</a></b>
                      </li>
                      <li>
                         <span>
@@ -672,7 +672,7 @@
             </ul>
 
             <ul class="copyright">
-               <li> Copyright 2019</li>
+               <li> Copyright 2021</li>
                <li>Designed by <a href="https://hyrre.net" title="Styleshout" target="_blank">Skye8</a></li>   
             </ul>
 
