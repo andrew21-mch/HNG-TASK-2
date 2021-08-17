@@ -12,6 +12,7 @@
             background-color: gray;
         }
     </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     </head>
     <body>
         <?php
@@ -22,7 +23,7 @@
         $sql = "SELECT * FROM messages";
         $query = mysqli_query($conn, $sql);
 
-            echo "<table style='border: 1'>" . "<tr>".
+            echo "<table>" . "<tr>".
                     "<th>Message Id</th>".
                     "<th>Email of Sender</th>".
                 " <th>Name of Sender</th>".
