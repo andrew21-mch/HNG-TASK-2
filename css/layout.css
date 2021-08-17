@@ -325,12 +325,12 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 .css {
-  	width: 90%;
+  	width: 70%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
 .html5 {
-  	width: 80%;
+  	width: 65%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
@@ -340,32 +340,32 @@ ul#nav li.current a { color: #F06000; }
    -webkit-animation: html5 2s ease;
 }
 .php {
-   width: 80%;
+   width: 75%;
    -moz-animation: html5 2s ease;
    -webkit-animation: html5 2s ease;
 }
 .python {
-   width: 80%;
+   width: 75%;
    -moz-animation: html5 2s ease;
    -webkit-animation: html5 2s ease;
 }
 .bash__C {
-   width: 80%;
+   width: 70%;
    -moz-animation: html5 2s ease;
    -webkit-animation: html5 2s ease;
 }
 
 @-moz-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 70%;  }
 }
 @-moz-keyframes html5 {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 65%;  }
 }
 @-webkit-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 80%;  }
 }
 @-webkit-keyframes html5 {
   0%   { width: 0px;  }
@@ -373,7 +373,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes sql {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 75%;  }
 }
 @-webkit-keyframes php {
    0%   { width: 0px;  }
