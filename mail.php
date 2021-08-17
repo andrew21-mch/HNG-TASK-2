@@ -5,10 +5,12 @@ if(isset($_POST['submit'])){
     $email = $_POST['email'];
     $subject = $_POST['subject'];
     $message = $_POST['message'];
+
     use PHPMailer\PHPMailer\PHPMailer;
     use PHPMailer\PHPMailer\Exception;
     require 'vendor/autoload.php';
-        $email = new PHPMailer(TRUE);
+
+        $mail = new PHPMailer(TRUE);
         $mail->setFrom($email, $name);
         $mail->addAddress('nfondrew@gmail.com', 'Employee');
         $mail->Subject  = $subject;
