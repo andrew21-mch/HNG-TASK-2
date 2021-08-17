@@ -6,15 +6,15 @@
     </head>
     <body>
         <div class="col-md-2">
-            <h3><a href="#">Go to App</a></h3> <br> <br> <br> <br>
-            <h3><a href="#">Logout</a></h3>  
+            <h3><a href="https://calm-earth-53188.herokuapp.com/">Go to App</a></h3> <br> <br> <br> <br>
+            <h3><a href="https://google.com">Logout</a></h3>  
             
         </div>
 
         <div class="col-md-10"> 
-            <h2>
+           <center><h2>
                 View Received Messages
-            </h2>
+            </h2></center> 
         <?php
 
         use mysql_xdevapi\Table;
