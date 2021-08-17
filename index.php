@@ -596,7 +596,7 @@
                   </div>
 
                  <div>
-                    <button type="submit">Submit</button>
+                    <button type="submit" name="submit">Submit</button>
                  </div>
 
 					</fieldset>
