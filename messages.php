@@ -4,6 +4,8 @@
         <style>
         body{
             width: 100%;
+            background-color: grbisque;
+
         }
         table{
             width: 80%;
@@ -17,10 +19,23 @@
         tr{
             height:20px;
         }
+        .col-md-4{
+            background-color: blue;
+            color: white;
+        }
+        .col-md-8{
+            background-color: white;
+        }
     </style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     </head>
     <body>
+        <div class="col-md-4">
+            <a href="#">Go to App</a>
+            <a href="#">Logout</a>
+        </div>
+
+        <div class="col-md-8"> 
         <?php
 
         use mysql_xdevapi\Table;
@@ -42,17 +57,17 @@
                 while($row = mysqli_fetch_assoc($query)){
                     ?>
                     <tr>
-                        <td style="width: 200px"> <?php echo $row["Message_id"]?> </td> 
-                        <td style="width: 200px"> <?php echo $row["Message_From_Email"]?> </td>
-                        <td style="width: 200px"> <?php echo $row["Message_From_Name"]?> </td>
-                        <td style="width: 200px"> <?php echo $row["Message_Subject"]?> </td>
-                        <td style="width: 200px"> <?php echo $row["Message_body"] ?></td>
+                        <td style="width: 100px"> <?php echo $row["Message_id"]?> </td> 
+                        <td style="width: 100px"> <?php echo $row["Message_From_Email"]?> </td>
+                        <td style="width: 100px"> <?php echo $row["Message_From_Name"]?> </td>
+                        <td style="width: 100px"> <?php echo $row["Message_Subject"]?> </td>
+                        <td style="width: 100px"> <?php echo $row["Message_body"] ?></td>
                 <?php } ?>      
                 </table>
 
         
         <?php mysqli_close($conn);?>
     
-    
+        </div>
 </body>
  </html>
