@@ -9,7 +9,6 @@
         }
         table{
             width: 100%;
-            border-style: solid;
             background-color: gray;
         }
         .col-md-2{
@@ -22,7 +21,7 @@
             height: 100%
         }
         tr{
-            height: 100px;
+            height: 80px;
         }
     </style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -43,7 +42,8 @@
         $query = mysqli_query($conn, $sql);?>
 
             <table class="table-striped">
-               <thead class = "thead-dark"><tr>
+            <thead class="thead-dark">
+                   <tr>
                     <th>Message Id</th>
                     <th>Email of Sender</th>
                     <th>Name of Sender</th>
