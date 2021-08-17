@@ -2,15 +2,14 @@
     <title>messages</title>
     <head>
         <style>
+        body{
+            width: 100%;
+        }
         table{
+            width: 90%;
             border-style: solid;
+            border: 2px;
             background-color: gray;
-        }
-        tr{
-            border-style: solid;
-        }
-        td{
-            border-style:solid;
         }
     </style>
     </head>
