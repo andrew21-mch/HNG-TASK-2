@@ -1,24 +1,22 @@
 <?php
+if(isset($_POST['submit'])){
 
-require ".gitignore/mail.php";
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
-require 'PHPMailer-master/src/Exception.php';
-require 'PHPMailer-master/src/PHPMailer.php';
-require 'PHPMailer-master/src/SMTP.php';
-
-$mail->IsHTML(true);
-$mail->AddAddress($email, $name);
-$mail->SetFrom($email, $name);
-$mail->AddReplyTo($email, $name);
-$mail->AddCC("cc-$email", "$name");
-$mail->Subject = $subject;
-$content = $content;
-
-$mail->MsgHTML($content); 
-if(!$mail->Send()) {
-echo "Error while sending Email.";
-var_dump($mail);
-} else {
-echo "Email sent successfully";
-}
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $subject = $_POST['subject'];
+    $message = $_POST['message'];
+    use PHPMailer\PHPMailer\PHPMailer;
+    use PHPMailer\PHPMailer\Exception;
+    require 'vendor/autoload.php';
+        $email = new PHPMailer(TRUE);
+        $mail->setFrom($email, $name);
+        $mail->addAddress('nfondrew@gmail.com', 'Employee');
+        $mail->Subject  = $subject;
+        $mail->Body     = $message;
+        if(!$mail->send()) {
+        echo 'Message was not sent.';
+        echo 'Mailer error: ' . $mail->ErrorInfo;
+        } else {
+        echo 'Message has been sent.';
+        }
+    }
