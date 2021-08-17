@@ -26,14 +26,22 @@
         th{
             background-color: black;
             color: white;
+            padding: 4px;
+        }
+        a{
+            color: white;
+        }
+        a:hover{
+            color: red
         }
     </style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     </head>
     <body>
         <div class="col-md-2">
-            <a href="#">Go to App</a>
-            <a href="#">Logout</a>
+            <h3><a href="#">Go to App</a></h3> <br> <br> <br> <br>
+            <h3><a href="#">Logout</a></h3>  
+            
         </div>
 
         <div class="col-md-10"> 
