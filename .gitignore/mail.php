@@ -16,20 +16,4 @@ if(isset($_POST['submit'])){
     $mail->Host       = "smtp.gmail.com";
     $mail->Username   = "nfontatah73@gmail.com";
     $mail->Password   = "*123#And";
-
-    $mail->IsHTML(true);
-    $mail->AddAddress($email, $name);
-    $mail->SetFrom($email, $name);
-    $mail->AddReplyTo($email, $name);
-    $mail->AddCC("cc-$email", "$name");
-    $mail->Subject = $subject;
-    $content = $content;
-
-    $mail->MsgHTML($content); 
-    if(!$mail->Send()) {
-    echo "Error while sending Email.";
-    var_dump($mail);
-    } else {
-    echo "Email sent successfully";
-    }
 }
