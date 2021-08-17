@@ -2,22 +2,13 @@
 
 if(isset($_POST['submit'])) {
 
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $subject = $_POST['subject'];
-    $message = $_POST['message'];
-    
-    
-    $toEmail = 'nfonandrew73@gmail.com';
-    $headers = "From: ". $email. "To \n" . $toEmail;
+$to = "nfonandrew73@gmail.com";
+$subject = $_POST['subject'];
+$message = $_POST['message'];
+$headers = "From: webmaster@example.com" . "\r\n" .
+"CC: nfonandrew73@gmail.com";
 
-    if(mail($toEmail, $subject, $message, $headers)){
-        echo '<script>alert("SUCCESS")</script>';
-    }
-    else{
-        echo '<script>alert("Failed")</script>';
-    }
-
+mail($to,$subject,$message,$headers);
 }
 
    
