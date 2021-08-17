@@ -9,7 +9,9 @@ $message = $_POST['message'];
 $headers = "From: $email" . "\r\n" .
 "CC: nfonandrew73@gmail.com";
 
-mail($to,$subject,$message,$headers);
+if(mail($to,$subject,$message,$headers)){
+   echo  '<script>alert("SUCCESS")</script>';
+};
 }
 
    
