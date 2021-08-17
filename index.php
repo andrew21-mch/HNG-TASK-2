@@ -572,7 +572,7 @@
             <div class="eight columns">
 
                <!-- form -->
-               <form action="emailcontact.php" method="post">
+               <form action="" method="post">
 					<fieldset>
 
                   <div>
