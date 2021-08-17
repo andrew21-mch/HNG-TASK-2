@@ -1,47 +1,8 @@
 <html>
     <title>messages</title>
     <head>
-        <style>
-        body{
-            width: 100%;
-            background-color: grbisque;
-
-        }
-        table{
-            width: 100%;
-            background-color: gray;
-            padding: 8px;
-        }
-        .col-md-2{
-            background-color: blue;
-            color: white;
-            height: 100%;
-        }
-        .col-md-10{
-            background-color: white;
-            height: 100%
-        }
-        tr{
-            height: 80px;
-        }
-        th{
-            background-color: black;
-            color: white;
-            padding: 4px;
-        }
-        a{
-            color: white;
-        }
-        a:hover{
-            background-color: gray;
-            color: red;
-            padding-right: 4px;
-            padding-left: 4px;
-            padding-top: 2px;
-            padding-bottom: 2px;
-        }
-    </style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/dash.css">
     </head>
     <body>
         <div class="col-md-2">

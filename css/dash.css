@@ -1,0 +1,39 @@
+
+body{
+    width: 100%;
+    background-color: grbisque;
+
+}
+table{
+    width: 100%;
+    background-color: gray;
+    padding: 8px;
+}
+.col-md-2{
+    background-color: blue;
+    color: white;
+    height: 100%;
+}
+.col-md-10{
+    background-color: white;
+    height: 100%
+}
+tr{
+    height: 80px;
+}
+th{
+    background-color: black;
+    color: white;
+    padding: 4px;
+}
+a{
+    color: white;
+}
+a:hover{
+    background-color: gray;
+    color: red;
+    padding-right: 4px;
+    padding-left: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
