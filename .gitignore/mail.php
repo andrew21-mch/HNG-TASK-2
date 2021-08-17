@@ -14,8 +14,8 @@ if(isset($_POST['submit'])){
     $mail->SMTPSecure = "tls";
     $mail->Port       = 587;
     $mail->Host       = "smtp.gmail.com";
-    $mail->Username   = "nfontatah73@gmail.com";
-    $mail->Password   = "*123#And";
+    $mail->Username   = "nfondrew73@gmail.com";
+    $mail->Password   = "nfonandrew@gmail.com";
 
     $mail->IsHTML(true);
     $mail->AddAddress($email, $name);
