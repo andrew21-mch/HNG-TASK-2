@@ -19,18 +19,20 @@
         tr{
             height:20px;
         }
-        .col-md-4{
+        .col-md-2{
             background-color: blue;
             color: white;
+            height: 100%;
         }
         .col-md-8{
             background-color: white;
+            height: 100%
         }
     </style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     </head>
     <body>
-        <div class="col-md-4">
+        <div class="col-md-2">
             <a href="#">Go to App</a>
             <a href="#">Logout</a>
         </div>
