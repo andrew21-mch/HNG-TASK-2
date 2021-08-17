@@ -26,11 +26,11 @@
             <table class="table-striped">
             <thead class="thead-dark">
                    <tr>
-                    <th># <i class="fa fa-id-badge" aria-hidden="true"></i></th>
-                    <th><i class="fa fa-id-badge" aria-hidden="true"></i>Email of Sender</th>
-                    <th><i class="fa fa-user" aria-hidden="true"></i>Name of Sender</th>
-                    <th> <i class="icon-focus"></i> Subject</th>
-                    <th> <i class="fa fa-envelope" aria-hidden="true"></i>Content</th>
+                    <th><b>#</b></th>
+                    <th> <b>Email of Sender</b></th>
+                    <th> <b>Name of Sende</b> r</th>
+                    <th> <b>Subject</b></th>
+                    <th> <b>Content</b></th>
                 </tr>
             </thead> 
 
