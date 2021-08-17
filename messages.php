@@ -32,6 +32,7 @@
             color: white;
         }
         a:hover{
+            background-color: gray;
             color: red
         }
     </style>
