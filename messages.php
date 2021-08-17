@@ -1,4 +1,16 @@
+<html>
+    <title>messages</title>
+    <head>
+        <style>
+        table{
+            border: 1;
+        }
+    </style>
+    </head>
+    
 <?php
+
+
 use mysql_xdevapi\Table;
 include_once "config.php";
 
@@ -26,3 +38,5 @@ $row = mysqli_fetch_assoc($query);
     echo "</table>";
   mysqli_close($conn);
  }
+ ?>
+ </html>
