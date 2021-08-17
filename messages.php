@@ -3,8 +3,14 @@
     <head>
         <style>
         table{
-            border: 2px;
+            border-style: solid;
             background-color: gray;
+        }
+        tr{
+            border-style: groove;
+        }
+        td{
+            border-style:solid;
         }
     </style>
     </head>
