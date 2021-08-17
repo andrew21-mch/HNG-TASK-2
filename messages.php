@@ -33,8 +33,8 @@ $row = mysqli_fetch_assoc($query);
                  "<td>". $row["Message_From_Email"]. "</td>".
                  "<td>". $row["Message_From_Name"]."</td>".
                  "<td>". $row["Message_Subject"]."</td>".
-                 "<td>". $row["Message_body"]. "</td>".
-        "<tr>";
+                 "<td>". $row["Message_body"]. "</td>";
+           echo "<tr>";
     echo "</table>";
   mysqli_close($conn);
  }
