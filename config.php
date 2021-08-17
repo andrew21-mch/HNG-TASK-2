@@ -12,6 +12,9 @@ $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $c
 if(!$conn){
     echo " <script>alert('Trouble Connecting to Database')</script>";
 }
+else{
+    echo " <script>alert('Success')</script>";
+}
 
 
 ?>
