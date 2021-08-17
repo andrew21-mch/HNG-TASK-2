@@ -8,16 +8,9 @@
 
         }
         table{
-            width: 80%;
+            width: 90%;
             border-style: solid;
             background-color: gray;
-        }
-        td{
-            height: 15px;
-            
-        }
-        tr{
-            height:20px;
         }
         .col-md-2{
             background-color: blue;
