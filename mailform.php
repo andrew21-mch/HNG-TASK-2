@@ -7,7 +7,8 @@ if(isset($_POST['submit'])){
     $subject = $_POST['subject'];
     $message = $_POST['message'];
 
-    $sql = "INSERT INTO `Messages` (`Message_From_Email`, `Message_From_Name`, `Message_Subject`, `Message_body`) VALUES ($email, $name, $subject, $message)";
+    $sql = "INSERT INTO `messages` (`Message_From_Email`, `Message_From_Name`, `Message_Subject`, `Message_body`) 
+                    VALUES ($email, $name, $subject, $message)";
     if($sql){
        echo " <script>alert('Message successfully sent')</script>";
     }
