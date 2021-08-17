@@ -31,11 +31,11 @@ $query = mysqli_query($conn, $sql);
                  "<td>". $row["Message_From_Email"]. "</td>".
                  "<td>". $row["Message_From_Name"]."</td>".
                  "<td>". $row["Message_Subject"]."</td>".
-                 "<td>". $row["Message_body"]. "</td>" ."<tr>" . 
-                 
-        "</table>";
+                 "<td>". $row["Message_body"]. "</td>" ."<tr>";
+          }       
+        echo "</table>";
 
- }
+ 
  mysqli_close($conn);
  ?>
  </html>
