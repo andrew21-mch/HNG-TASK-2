@@ -17,7 +17,6 @@ include_once "config.php";
 $sql = "SELECT * FROM messages";
 $query = mysqli_query($conn, $sql);
 
-$row = mysqli_fetch_assoc($query);
     echo "<table style='border: 1'>" . "<tr>".
             "<th>Message Id</th>".
             "<th>Email of Sender</th>".
@@ -26,7 +25,7 @@ $row = mysqli_fetch_assoc($query);
             "<th>Content</th>".
         "</tr>";
 
-        while($row){
+        while($row = mysqli_fetch_assoc($query)){
             echo "<tr>";
             echo "<td>".$row["Message_id"]."</td>" .
                  "<td>". $row["Message_From_Email"]. "</td>".
@@ -37,5 +36,6 @@ $row = mysqli_fetch_assoc($query);
         "</table>";
 
  }
+ mysqli_close($conn);
  ?>
  </html>
