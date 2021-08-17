@@ -6,10 +6,16 @@
             width: 100%;
         }
         table{
-            width: 90%;
+            width: 80%;
             border-style: solid;
-            border: 2px;
             background-color: gray;
+        }
+        td{
+            height: 15px;
+            
+        }
+        tr{
+            height:20px;
         }
     </style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -41,12 +47,11 @@
                         <td> <?php echo $row["Message_From_Name"]?> </td>
                         <td> <?php echo $row["Message_Subject"]?> </td>
                         <td> <?php echo $row["Message_body"] ?></td>
-                }       
+                <?php } ?>}       
                 </table>
 
         
-        <?php mysqli_close($conn);
-        }?>
+        <?php mysqli_close($conn);?>
     
     
 </body>
