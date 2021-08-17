@@ -3,7 +3,8 @@
     <head>
         <style>
         table{
-            border: 1;
+            border: 2px;
+            background-color: gray;
         }
     </style>
     </head>
