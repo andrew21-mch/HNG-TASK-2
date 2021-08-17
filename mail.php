@@ -11,14 +11,31 @@ if(isset($_POST['submit'])){
     require 'vendor/autoload.php';
 
         $mail = new PHPMailer(TRUE);
-        $mail->setFrom($email, $name);
-        $mail->addAddress('nfondrew@gmail.com', 'Employee');
-        $mail->Subject  = $subject;
-        $mail->Body     = $message;
-        if(!$mail->send()) {
-        echo 'Message was not sent.';
-        echo 'Mailer error: ' . $mail->ErrorInfo;
+
+        $mail->IsSMTP();
+        $mail->Mailer = "smtp";
+
+        $mail->SMTPDebug  = 1;  
+        $mail->SMTPAuth   = TRUE;
+        $mail->SMTPSecure = "tls";
+        $mail->Port       = 587;
+        $mail->Host       = "smtp.gmail.com";
+        $mail->Username   = "nfondrew@gmail.com";
+        $mail->Password   = "nfonandrew73@gmail.com";
+
+        $mail->IsHTML(true);
+        $mail->AddAddress("nfondrew@gmail.com", "Nfon Andrew");
+        $mail->SetFrom("$emali", "$name");
+        $mail->AddReplyTo("$email", "$name");
+        $mail->AddCC("$email", "$name");
+        $mail->Subject = $subject;
+        $content = $message;
+
+        $mail->MsgHTML($content); 
+        if(!$mail->Send()) {
+        echo "Error while sending Email.";
+        var_dump($mail);
         } else {
-        echo 'Message has been sent.';
+        echo "Email sent successfully";
         }
     }
