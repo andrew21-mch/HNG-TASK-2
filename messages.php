@@ -52,11 +52,11 @@
                 while($row = mysqli_fetch_assoc($query)){
                     ?>
                     <tr>
-                        <td style="width: 100px"> <?php echo $row["Message_id"]?> </td> 
-                        <td style="width: 100px"> <?php echo $row["Message_From_Email"]?> </td>
-                        <td style="width: 100px"> <?php echo $row["Message_From_Name"]?> </td>
-                        <td style="width: 100px"> <?php echo $row["Message_Subject"]?> </td>
-                        <td style="width: 100px"> <?php echo $row["Message_body"] ?></td>
+                        <td style="width: 15%"> <?php echo $row["Message_id"]?> </td> 
+                        <td style="width: 15%"> <?php echo $row["Message_From_Email"]?> </td>
+                        <td style="width: 15%"> <?php echo $row["Message_From_Name"]?> </td>
+                        <td style="width: 15%"> <?php echo $row["Message_Subject"]?> </td>
+                        <td style="width: 40%"> <?php echo $row["Message_body"] ?></td>
                 <?php } ?>      
                 </table>
 
