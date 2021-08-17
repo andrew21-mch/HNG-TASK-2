@@ -61,8 +61,7 @@
          
          <div class="banner-text">
             <h1 class="responsive-headline">I'm Nfon Andrew</h1>
-            <h3>I'm a  <span>Blogger</span>, <span>Software Engineer</span> and <span>webdesigner</span> creating awesome and
-            effective visual identities for companies of all sizes around the globe. Let's <a class="smoothscroll" href="#about">start scrolling</a>
+            <h3>I'm a  <span>Software Engineer</span> <span>webdeveloper</span> and <span>a data scientist</span>. Let's <a class="smoothscroll" href="#about">start scrolling</a>
             and learn more <a class="smoothscroll" href="#about">about me</a></h3>
             <hr />
             <ul class="social">
@@ -113,14 +112,14 @@
 						         Cameroon
                      </span><br>
 						   <span>+237 672769636</span><br>
-                     <span>andytesta92@gmail.com</span>
+                     <span>nfondrew@gmail.com</span>
 					   </p>
 
                </div>
 
                <div class="columns download">
                   <p>
-                     <a href="https://drive.google.com/file/d/1F9eWNmdiqmcLxkT9BcnBEMsqqoIGdAwP/view?usp=sharing" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                     <a href="https://drive.google.com/file/d/1GbKppLTT-Z5P008Y-ZD55D_lBDtSJIyC/view?usp=sharing" class="button"><i class="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
 
