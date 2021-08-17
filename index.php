@@ -596,7 +596,7 @@
                   </div>
 
                  <div>
-                    <button type="submit">Submit</button>
+                    <a href="mailto:nfonandrew73@gmail.com"><button type="submit">Submit</button></a>
                  </div>
 
 					</fieldset>
