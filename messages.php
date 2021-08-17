@@ -39,14 +39,15 @@
         $sql = "SELECT * FROM messages";
         $query = mysqli_query($conn, $sql);?>
 
-            <table border="1">
-                <tr>
+            <table class="table-striped">
+               <thead class = "thead-dark"><tr>
                     <th>Message Id</th>
                     <th>Email of Sender</th>
                     <th>Name of Sender</th>
                     <th>Subject</th>
                     <th>Content</th>
                 </tr>
+            </thead> 
 
                 <?php
                 while($row = mysqli_fetch_assoc($query)){
