@@ -8,7 +8,7 @@
 
         }
         table{
-            width: 90%;
+            width: 100%;
             border-style: solid;
             background-color: gray;
         }
@@ -17,7 +17,7 @@
             color: white;
             height: 100%;
         }
-        .col-md-8{
+        .col-md-10{
             background-color: white;
             height: 100%
         }
@@ -30,7 +30,7 @@
             <a href="#">Logout</a>
         </div>
 
-        <div class="col-md-8"> 
+        <div class="col-md-10"> 
         <?php
 
         use mysql_xdevapi\Table;
