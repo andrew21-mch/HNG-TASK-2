@@ -26,7 +26,7 @@ $row = mysqli_fetch_assoc($query);
             "<th>Content</th>".
         "</tr>";
 
-        while($row>0){
+        while($row){
             echo "<tr>";
             echo "<td>".$row["Message_id"]."</td>" .
                  "<td>". $row["Message_From_Email"]. "</td>".
