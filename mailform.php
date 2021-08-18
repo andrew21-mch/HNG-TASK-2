@@ -11,6 +11,7 @@
         $query = mysqli_query($conn,$sql);
             if($query){
                 echo"<script>alert('Message Delivered')</script>";
+                header("Location: index.php");
             }
             else{
             echo "ERROR:". $sql. "<br>". mysqli_error($conn);
