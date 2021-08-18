@@ -1,5 +1,11 @@
 # HNG-TASK-2
-<a href="{myapp.mp4}" title="Video"><img src="{myapp.mp4}" alt="Alternate Text" /></a>
+
+## The Video Below shows simple outlay of the task
+
+https://user-images.githubusercontent.com/58951422/129821386-2a78fcb0-b30c-4e7c-b933-870c9b63907a.mp4
+
+
+
 this repo contains 2 Task, 
 <li>write a program that prints your name with any language of your choice </li>
 <li>build an interactive resumè page that contains a form. Host the page on heroku.</li>
