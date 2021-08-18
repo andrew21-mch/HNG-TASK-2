@@ -11,7 +11,7 @@
         $query = mysqli_query($conn,$sql);
             if($query){
                 echo"<script>alert('Message Delivered')</script>";
-                header("refresh: 5; url = index.php");
+                header("refresh: 3; url = index.php");
             }
             else{
             echo "ERROR:". $sql. "<br>". mysqli_error($conn);

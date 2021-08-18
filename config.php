@@ -13,7 +13,7 @@ if(!$conn){
     echo " <script>alert('Trouble Connecting to Database')</script>";
 }
 else{
-    echo " <script>alert('Success')</script>";
+    echo " <script>alert('Establishing connection....')</script>";
 }
 
 
